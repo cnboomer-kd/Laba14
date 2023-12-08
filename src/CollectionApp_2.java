@@ -19,14 +19,12 @@ public class CollectionApp_2
         states.set(1, "Дания");
         for(String state : states)
         {
-
             System.out.println(state);
         }
         // проверка на наличие элемента в списке
         if(states.contains("Германия"))
 
         {
-
             System.out.println("Список содержит государство Германия");
         }
 
@@ -42,7 +40,6 @@ public class CollectionApp_2
 
         for(Person p : people)
         {
-
             System.out.println(p.getName());
         }
         Person first = people.getFirst();
